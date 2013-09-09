@@ -1,5 +1,11 @@
 *.py[cod]
 
+# Databases
+*.db
+
+# Logs
+*.log
+
 # C extensions
 *.so
 
