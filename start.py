@@ -56,7 +56,7 @@ def main():
 
 
   # display status
-  while (crawling_queue.empty() is False or processing_queue.empty is False):
+  while (crawling_queue.empty() is False or processing_queue.empty() is False):
     print "crawl:", crawling_queue.qsize(), "/ crawled:", len(crawled_dict), "/ process:", processing_queue.qsize(), "/processed:", len(processed_dict), "/ words:", word_count
   # TODO add logger.info output
 
